@@ -1,3 +1,8 @@
 #java小用例
 一、MD5加密和SHA加密
 
+二、自定义类加载器
+
+	1、继承ClassLoader
+	2、构造器指定父类加载器
+	3、重写findClass，自己实现文件的读取，然后调用父类的defineClass进行装载
